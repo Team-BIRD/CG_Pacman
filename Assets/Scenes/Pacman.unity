@@ -499,19 +499,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d2bf445c53cf5dd43bb5f47ad6f11f59, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  ghosts:
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  pacman: {fileID: 0}
-  pellets: {fileID: 1910537628}
-  gameOverText: {fileID: 1133529214}
-  scoreText: {fileID: 1945791160}
-  livesText: {fileID: 278868602}
-  ghostMultiplier: 1
-  lives: 3
-  score: 0
 --- !u!4 &469897152
 Transform:
   m_ObjectHideFlags: 0
@@ -572,7 +559,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: cec362b59eb1c514f8a7f8c5ba4c6e3a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  connection: {fileID: 1651544309}
 --- !u!61 &512613669
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -1612,7 +1598,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: cec362b59eb1c514f8a7f8c5ba4c6e3a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  connection: {fileID: 812224647}
 --- !u!61 &1064051194
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -10768,14 +10753,6 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: 5896912869381591406, guid: b6894cca0173e8041bba0e4a8be5fde1, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.z
-      value: -90
-      objectReference: {fileID: 0}
-    - target: {fileID: 6038318316045854524, guid: b6894cca0173e8041bba0e4a8be5fde1, type: 3}
-      propertyPath: m_RootOrder
-      value: 4
-      objectReference: {fileID: 0}
     - target: {fileID: 6038318316045854524, guid: b6894cca0173e8041bba0e4a8be5fde1, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0
@@ -10818,17 +10795,9 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6038318316045854526, guid: b6894cca0173e8041bba0e4a8be5fde1, type: 3}
       propertyPath: m_Name
-      value: Pacman
+      value: PacmanEntity
       objectReference: {fileID: 0}
-    - target: {fileID: 6038318316045854526, guid: b6894cca0173e8041bba0e4a8be5fde1, type: 3}
-      propertyPath: m_IsActive
-      value: 1
-      objectReference: {fileID: 0}
-    m_RemovedComponents:
-    - {fileID: 6038318316045854514, guid: b6894cca0173e8041bba0e4a8be5fde1, type: 3}
-    - {fileID: 6038318316045854519, guid: b6894cca0173e8041bba0e4a8be5fde1, type: 3}
-    - {fileID: 6038318316045854515, guid: b6894cca0173e8041bba0e4a8be5fde1, type: 3}
-    - {fileID: 8277160542397365967, guid: b6894cca0173e8041bba0e4a8be5fde1, type: 3}
+    m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents: []
