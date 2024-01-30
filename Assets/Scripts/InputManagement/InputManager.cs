@@ -4,7 +4,6 @@ using UnityEngine.InputSystem;
 
 namespace ThePrototype.Scripts.InputManagement
 {
-    // [CreateAssetMenu(fileName = "InputManager", menuName = "ThePrototype/Input/InputManager")]
     public class InputManager : PlayerInputActions.IPlayerActions
     {
         public event Action<Vector2> Move = delegate { };
